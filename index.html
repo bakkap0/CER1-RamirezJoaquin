@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,29 +9,44 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg" id="navbarCustom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Smart Events</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Eventos</a>
-                        <a class="nav-link" href="#">Contacto</a>
-                        <a class="nav-link" href="#">Sobre nosotros</a>
-                    </div>
+<body id="index">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#index">Smart Events</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#index">Inicio</a>
+                    <a class="nav-link" href="eventos.html">Eventos</a>
+                    <a class="nav-link" href="comunidad.html">Comunidad</a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
+<div class="container-fluid">
+  <section id="hero" class="row align-items-center">
+    
+    <div id="contenido" class="col-md-6 p-4">
+      <h2>Tu próximo evento</h2>
+      <p>Presentación de TLP</p>
+      <div id="contador-TLP-hero"></div>
+      <a href="eventos.html" class="btn btn-primary mt-3">Más información</a>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="imagenes/2.png" 
+           alt="Imagen del evento TLP"
+           class="img-fluid rounded">
+    </div>
+
+  </section>
+</div>    
     <script src="js/bootstrap.js"></script>
+    <script src="js/eventos.js"></script>
 </body>
 
 </html>

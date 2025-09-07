@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Smart-Events</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Smart Events</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="eventos.html">Eventos</a>
+                    <a class="nav-link" href="comunidad.html">Comunidad</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   <div class="row">
+        <section id="Eventos" class="col">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imagenes/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Twenty one Pilots</h5>
+                            <ul>
+                                <li> Nombre: TOP en Chile</li>
+                                <li> Fecha: 31/12/2025</li>
+                                <li> Hora: 22:00</li>
+                                <li> Lugar: Estadio Nacional/Santiago de Chile</li>
+                                <li> Precio: $85.000</li>
+                            </ul>
+                            <button onclick="link()"> Ver mas</button>
+                         
+                        </div>
+                        <div class="card-footer">
+                            <div id="contador-lol"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imagenes/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">FastFest</h5>
+                            <ul>
+                                <li> Nombre: FastFest</li>
+                                <li> Fecha: 23/12/2025</li>
+                                <li> Hora: 15:00 - 22:00</li>
+                                <li> Lugar: Autodromo de Quilpue</li>
+                                <li> Precio: $25.000</li>
+                            </ul>
+                            <button onclick="link2()"> Ver mas</button>
+                        </div>
+                        <div class="card-footer">
+                            <div id="contador-minecraft"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imagenes/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Certamen 1 TLP</h5>
+                            <ul>
+                                <li> Nombre: Certamen 1</li>
+                                <li> Fecha: 08/09/2025</li>
+                                <li> Hora: 15:20 - 15:28</li>
+                                <li> Lugar: G209</li>
+                                <li> Precio: Free</li>
+                            </ul>
+                            <button onclick="link3()"> Ver mas</button>
+                        </div>
+                        <div class="card-footer">
+                            <div id="contador-TLP"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+   <script src="js/bootstrap.js"></script>
+    <script src="js/eventos.js"></script>
+
+</body>
+</html>
